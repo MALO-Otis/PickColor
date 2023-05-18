@@ -1,0 +1,230 @@
+body
+{
+    margin:0%;
+    padding: 0%;
+    min-width: 940px;
+}
+
+                                            /* The heading */
+.heading
+{
+    color: white;
+}
+.headingTitles
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    position: relative;
+    right: 400px;
+    top: 7px;
+}
+.headingTitles li
+{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.headingTitles li a:hover
+{
+    color: black;
+    transition: .6s;
+}
+.headingTitles li a
+{
+    color: wheat;
+    transition: .3s;
+}
+                                             /* The Site bar content */
+
+#contain
+{
+    left: -100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    min-width: fit-content;
+    background-color: rgba(40, 46, 38,0.7);
+    color: white;
+    text-align: center;
+}
+#contain .head
+{
+    position:relative;
+}
+
+#contain circle:hover
+{
+    stroke:aliceblue;
+    transition: .9s;
+    cursor: pointer;
+}
+#contain .svg
+{
+    position: relative;
+}
+#card
+{
+    position: absolute;
+    top: -10px;
+    right:0;
+    
+}
+
+#close
+{
+    position: absolute;  
+    top: 0;
+    right: 0;
+    transform: translate(-50%,50%);
+    cursor: pointer;
+}
+
+                                            /* The body */
+                                            #body
+                                            {
+                                                display: block;
+                                            }
+.bodyPart
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bigTitle
+{
+    text-align: left;
+    position: relative;
+    top: 100px;
+    overflow-wrap: break-word;
+    height: fit-content;
+    width: fit-content;
+    
+}
+.centeredText
+{
+    overflow-wrap: break-word;
+    text-align:justify;
+    position: relative;
+    top: 220px;
+    font-size: 0.9em;
+}
+
+.representation
+{
+    border: 2px black solid;
+    border-radius: 50%;
+    width: 217px;
+    height: 270px;
+    position: relative;
+    left: 130px;
+    top: 40px;
+    background-color: #F00741;
+}
+.description ol
+{
+    width: 300px;
+}
+.scroll,.btns
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btns
+{
+    margin-top: 100px;
+}
+
+/*                                      The FOOTER content */
+
+footer
+{
+    width: 100%;
+    height: 300px;
+    background-color: #4A1EC3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#left,#center,#right
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#left div
+{
+    overflow: hidden;
+    width: 100px;
+}
+#left i
+{
+    font-size: 1.4em;
+    margin: 10px;
+    transition: .6s;
+
+}
+#left i:hover
+{
+    color:white;
+    font-size: 1.8em;
+    transition: .7s;
+}
+#carouselExampleIndicators
+{
+    border-radius: 20px;
+}
+.carousel {
+    background: wheat;
+  }
+#carouselExampleIndicators .carousel-item img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/*                              hide the stocks parts */
+#stocks
+{
+    display: none;
+}
+
+
+
+    /* CSS styles for the about page */
+    /* ... */
+
+    /* Example styles */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+  
+      .containeur {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+  
+      .containeur h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+  
+      .containeur p {
+        margin-bottom: 10px;
+      }
